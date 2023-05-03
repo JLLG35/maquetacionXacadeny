@@ -1,0 +1,113 @@
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+}
+
+p {
+    margin-right: 48px;
+}
+
+p:hover {
+    color: mediumpurple;
+}
+
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+
+button.redondo {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+}
+
+button:hover {
+    background-color:black;
+    color: white;
+}
+
+button.redondoColor {
+    background-color: white;
+    border: 2px solid mediumpurple;
+    border-radius: 25px;
+    padding: 0px 20px;
+    height: 32px;
+    color: mediumpurple;
+}
+
+button.redondoColor:hover {
+    background-color: mediumpurple;
+    color: white;
+}
+
+#intro-content h1 {
+    margin: 0 300;
+    font-size: 25px;
+    margin: 2%;
+    text-align: center;
+    font-weight: 450;
+    max-width: fit-content;
+      
+}
+  
+  @media screen and (max-width: 2500px) {
+    #intro-content h1 {
+      font-size: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 3500px) {
+    #intro-content h1 {
+      font-size: 25px;
+    }
+  }
+ 
+
+div#intro-bottons{
+    display: flex;
+    justify-content: center;
+}
+
+div#introduction2{
+    display: inline-flex;
+    width: 83%;
+    background-color: black;
+    padding: 85px 30px 100px 50px;
+}
+
+#intro{
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+#intro-message {
+    font-weight: 400;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.caja,
+.caja-numero {
+  font-size: 5px;
+  color: black;
+  display: block;
+}
+
+.caja-numero {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+#caja2,
+#caja3,
+#caja4 {
+  color: white;
+  padding-left: 10px;
+}
